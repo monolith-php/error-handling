@@ -1,0 +1,28 @@
+{
+  "name": "monolith/error-handling",
+  "description": "Monolith: Error Handling",
+  "license": "MIT",
+  "keywords": [
+    "monolith",
+    "error handling"
+  ],
+  "homepage": "https://www.monolith-php.com",
+  "authors": [
+    {
+      "name": "Mitchell van Wijngaarden",
+      "email": "mitchell@kooding.nl"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Monolith\\ErrorHandling\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
