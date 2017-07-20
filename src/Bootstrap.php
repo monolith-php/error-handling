@@ -7,7 +7,7 @@ class Bootstrap implements ComponentBootstrap {
         $c->bind(ScreenDumpHandler::class);
     }
 
-    public function start(Container $c): void {
+    public function init(Container $c): void {
         error_reporting(E_ALL);
         set_exception_handler([$c[ScreenDumpHandler::class], 'handle']);
     }
