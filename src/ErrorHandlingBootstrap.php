@@ -11,5 +11,6 @@ class ErrorHandlingBootstrap implements ComponentBootstrap {
     public function init(Container $container): void {
         error_reporting(E_ALL);
         set_exception_handler([$container[ScreenDumpHandler::class], 'handle']);
+        set_error_handler([$container[ScreenDumpHandler::class], 'handle']);
     }
 }
