@@ -1,3 +1,3 @@
-# Error Handling
+# Error Handling $$VERSION$$
 
 information
