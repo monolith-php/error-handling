@@ -1,0 +1,6 @@
+suites:
+  main:
+    namespace: "Monolith\\ErrorHandling"
+    psr4_prefix: "Monolith\\ErrorHandling"
+    src_path: src
+formatter.name: pretty
