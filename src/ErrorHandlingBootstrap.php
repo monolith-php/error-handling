@@ -1,6 +1,6 @@
 <?php namespace Monolith\ErrorHandling;
 
-use Monolith\ComponentLoading\ComponentBootstrap;
+use Monolith\ComponentBootstrapping\ComponentBootstrap;
 use Monolith\DependencyInjection\Container;
 
 final class ErrorHandlingBootstrap implements ComponentBootstrap {

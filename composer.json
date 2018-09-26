@@ -9,15 +9,12 @@
     {
       "name": "Shawn McCool",
       "email": "shawn@heybigname.com"
-    },
-    {
-      "name": "Mitchell van Wijngaarden",
-      "email": "mitchell@kooding.nl"
     }
   ],
   "require": {
     "php": "^7.1",
-    "filp/whoops": "^2.2@dev"
+    "filp/whoops": "^2.2@dev",
+    "monolith/component-bootstrapping": ">=4"
   },
   "require-dev": {
     "phpspec/phpspec": "^5.0"
