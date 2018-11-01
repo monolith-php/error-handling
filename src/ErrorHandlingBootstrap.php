@@ -5,17 +5,9 @@ use Monolith\DependencyInjection\Container;
 
 final class ErrorHandlingBootstrap implements ComponentBootstrap
 {
-    /** @var bool */
-    private $debug;
-
-    public function __construct($debug = false)
-    {
-        $this->debug = $debug;
-    }
-
     public function bind(Container $container): void
     {
-        if ($this->debug) {
+        if (getenv('SHOW_DEBUG_ERRORS')) {
             $whoops = new \Whoops\Run;
             $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
             $whoops->register();

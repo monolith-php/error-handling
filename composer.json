@@ -14,7 +14,8 @@
   "require": {
     "php": "^7.1",
     "filp/whoops": "^2.2@dev",
-    "monolith/component-bootstrapping": "^4"
+    "monolith/component-bootstrapping": "^4",
+    "monolith/configuration": "^2"
   },
   "require-dev": {
     "phpspec/phpspec": "^5.0"
