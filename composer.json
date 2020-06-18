@@ -12,13 +12,13 @@
     }
   ],
   "require": {
-    "php": "^7.2",
+    "php": "^7.p",
     "filp/whoops": "^2.2@dev",
-    "monolith/component-bootstrapping": "^6",
-    "monolith/configuration": "^4"
+    "monolith/component-bootstrapping": "^7",
+    "monolith/configuration": "^6"
   },
   "require-dev": {
-    "phpspec/phpspec": "^5.0"
+    "phpspec/phpspec": "dev-master"
   },
   "autoload": {
     "psr-4": {
