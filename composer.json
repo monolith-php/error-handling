@@ -5,14 +5,8 @@
     "monolith",
     "error handling"
   ],
-  "authors": [
-    {
-      "name": "Shawn McCool",
-      "email": "shawn@heybigname.com"
-    }
-  ],
   "require": {
-    "php": "^7.p",
+    "php": ">=7.4",
     "filp/whoops": "^2.2@dev",
     "monolith/component-bootstrapping": "^7",
     "monolith/configuration": "^6"
