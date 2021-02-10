@@ -6,14 +6,24 @@
     "error handling"
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8",
     "filp/whoops": "^2.2@dev",
-    "monolith/component-bootstrapping": "^7",
-    "monolith/configuration": "^6"
+    "monolith/component-bootstrapping": "^8",
+    "monolith/configuration": "^7"
   },
   "require-dev": {
-    "phpspec/phpspec": "dev-master"
+    "phpspec/phpspec": "^7"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.humanmusic.eu",
+      "canonical": false,
+      "only": [
+        "monolith/*"
+      ]
+    }
+  ],
   "autoload": {
     "psr-4": {
       "Monolith\\ErrorHandling\\": "src/"
